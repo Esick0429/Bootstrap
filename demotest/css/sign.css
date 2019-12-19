@@ -1,0 +1,122 @@
+p{
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.6;
+}
+.d-flex{
+  display: flex!important;
+}
+.align-items-center{
+  align-items: center!important;
+}
+.justify-content-center{
+  justify-content: center!important;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.text-center{
+  text-align: center!important;
+}
+.min-vh-100 {
+  min-height: 100vh!important;
+}
+.sbutton a{
+  text-decoration:none;
+  margin:5px 0px;
+}
+.btn-twitter{
+  background-color: #1da1f2;
+}
+.font-color{
+  color: #ffffff;
+}
+.btn-icon {
+  display: inline-block;
+}
+.btn-facebook{
+  background-color: #3b5999;
+}
+.btn-ins{
+  background-color: #e4405f;
+}
+.input-group-text {
+  display: flex;
+  align-items: center;
+  padding: .6rem .75rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #adb5bd;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #fff;
+  border: .0625rem solid #e9ecef;
+  border-radius: .125rem;
+}
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+.form-group {
+  position: relative;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+.input-group-prepend{
+  position: relative;
+  top: 20px;
+}
+.mb-5{
+  margin-bottom: 3rem!important;
+}
+
+.mt-4{
+  margin-top: 1.5rem!important;
+}
+.justify-content-between{
+  justify-content: space-between!important;
+}
+.small, small {
+  font-size: 80%;
+  font-weight: 400;
+}
+.text-right {
+  text-align: right!important;
+}
+.text-left {
+  text-align: left!important;
+}
+.slide-fade-enter-active {
+  transition: all .3s ease;
+}
+.slide-fade-leave-active {
+  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to
+/* .slide-fade-leave-active for below version 2.1.8 */ {
+  transform: translateX(10px);
+  opacity: 0;
+}
+form{width: 100%;}
+.control-label2 i,.control-label2 i::before{
+  width: 14px!important;
+  float: right;
+}
+@media screen and (min-width:100px){
+  .sbutton a{
+    width: 29%;
+    margin: 20px 7px;
+  }
+}
+@media screen and (max-width:390px){
+  .sbutton a{
+    width: 100%;
+  }
+}
